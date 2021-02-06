@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../styles.css">
+  <script>
+    var linkContainer = document.getElementById("blogLinks");
+    ["test.html"].map(l => {
+      var anchor = document.createElement("a");
+      anchor.textContent = l.split(".")[0];
+      anchor.href = "./blogs/" + l;
+      return anchor;
+    }).forEach(e => linkContainer.appendChild(e))
+  </script>
+</head>
+
+<body>
+  <div style="width: 50%;">
+    <div id="blogLinks"><p>links</p></div>
+  </div>
+</body>
+
+</html>
