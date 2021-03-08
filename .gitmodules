@@ -1,0 +1,3 @@
+[submodule "pages/bonbon"]
+	path = pages/bonbon
+	url = git@github.com:GrantMatejka/bonbon.git
