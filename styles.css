@@ -1,3 +1,7 @@
+p {
+  font-size: large;
+}
+
 .container {
   width: 60%;
   margin-left: auto;
@@ -9,28 +13,23 @@
   .container {
     width: 100%;
   }
-  .inline-list-items-container {
-    width: 100%;
-  }
-}
-
-.inline-list-items-container {
-  width: 60%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .inline-list {
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  flex-wrap: wrap;
+
   background-color: #e3e3e3;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
 
 .link {
-  padding-left: 0.15em;
-  padding-right: 0.15em;
+  padding-right: 1em;
+  padding-left: 1em;
 
   font-size: 2em;
 }
